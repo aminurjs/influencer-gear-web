@@ -1,0 +1,11 @@
+/* Commont Styles  */
+
+:root{
+    --primary-font-color: #3a3a3a;
+    --primary-btn-color: #E02C6D;
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
