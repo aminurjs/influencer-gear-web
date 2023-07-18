@@ -10,6 +10,13 @@
     margin: 0;
     padding: 0;
 }
+img{
+    min-width: 100%;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /* Header area styles here */
 
@@ -44,7 +51,6 @@ nav ul li a{
     font-weight: 600;
     text-decoration: none;
 }
-
 
 
 
@@ -93,6 +99,26 @@ nav ul li a{
     background-size: cover;
 }
 
+/* Sponsored Section styles */
+/* .sponsored{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
+    padding: 30px;
+    border: 1px solid #dddddd70;
+    margin-bottom: 120px;
+    text-align: center;
+} */
+.sponsored{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 30px;
+    border: 1px solid #dddddd70;
+    margin-bottom: 120px;
+    text-align: center;
+}
 
 
 
@@ -126,11 +152,24 @@ nav ul li a{
         font-size: 1.75rem;
         line-height: normal;
         text-align: center;
+        max-width: 404px;
     }
     .banner_content p {
         text-align: center;
         font-size: .875rem;
         width: 321px;
+    }
+    .sponsored{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+    }
+    .sponsored .sp_img{
+        width: 20%;
+    }
+    .sponsored img{
+        height: 15.241px;
     }
 }
 /* Tablet Responsive styles */
@@ -166,5 +205,17 @@ nav ul li a{
         text-align: center;
         font-size: 1rem;
         width: 521px;
+    }
+    .sponsored{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+    }
+    .sponsored .sp_img{
+        width: 20%;
+    }
+    .sponsored img{
+        height: 25.241px;
     }
 }
